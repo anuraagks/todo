@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+ul,ol{
+  list-style: none;
+}
+*{
+  font-family: "baloo_paaji_2regular";
+ 
+}
+@font-face {
+  font-family:"baloo_paaji_2regular" ;
+  src:  url( "../src/components/assets/fonts/baloopaaji2-regular-webfont.woff")
+      format("woff"),
+        url("../src/components/assets/fonts/baloopaaji2-regular-webfont.woff2")
+      format("woff2");
+      font-weight: normal;
+      font-style: normal;
+}
